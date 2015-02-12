@@ -1,0 +1,25 @@
+
+public abstract class Vehicle 
+{
+	//Instance Variables//////////////////////////////////////////////////////////////////////////
+	private int _tireCount;
+	
+	//Public Methods//////////////////////////////////////////////////////////////////////////////
+	public int getTireCount() 
+	{
+		return _tireCount;
+	} //method get
+
+	public void setTireCount(int _tireCount)
+	{
+		this._tireCount = _tireCount;
+	}
+	
+	//Constructor/////////////////////////////////////////////////////////////////////////////////
+	public void Vehicle()
+	{
+		
+	} //constructor ends
+
+	
+} //class Vehicle ends
